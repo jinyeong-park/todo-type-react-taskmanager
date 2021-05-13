@@ -10,9 +10,9 @@ The project requires npm and nodeJS installed
 ###  Build Project
 1. create next js project: `npx create-next-app` or `yarn create next-app`
 2. run development server: `npm run dev`
-1. Install typescript: `yarn create react-app . --template typescript`
-2. refer [here](https://create-react-app.dev/docs/adding-typescript/)
-3. Install project dependencies: `npm install` or `yarn install`
+3. add typescript config(tsconfig.json) and install `yarn add --dev typescript @types/react @types/node`
+4. run development server again to fill tsconfig.json and next-env.d.ts file: `npm run dev`
+
 
 ## Other resources
 | Source | Url |
